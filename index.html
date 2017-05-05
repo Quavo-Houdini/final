@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="css/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <script language="javascript" src="libraries/p5.dom.js"></script>
+  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    </head>
+
+
+    <body>
+
+
+    <div class="body">
+        <div class="w3-panel w3-whi">
+<div class="logopanel">
+         <img src="btjlogo.png" width="600"height="200">
+          </div>
+        </div>
+
+        <div class="whitespacenav2">
+<div class="w3-row w3-transparent">
+ <div class="w3-container">
+
+
+
+  </div>
+    <div class="whitespacenav">
+
+<div class="NavBar">
+ <ul class="w3-navbar">
+
+
+
+  <li> <form> <input type="text" name="search" placeholder="Click Contact" class=w3-big>
+</form></li>
+     <li><a href="email.html"><div class="hvr">Contact</div></a></li>
+     <li><a href="#"><div class="hvr">About</div></a></li>
+     <li><a href="#"><div class="hvr">Resume</div></a></li>
+     <li><a href="#"><div class="hvr">Projects</div></a></li>
+     <li><a href="#"><div class="hvr">Home</div></a></li>
+
+    </ul>
+  </div>
+</div>
+        </div>
+
+        </div>
+        </div>
+
+        <div class="whitespace">
+        <div class="w3-panel w3-white">
+            <div class="background">
+                <img src="Ibra.jpg" class="w3-grayscale-min" height="1000"width="1500"></div>
+
+            </div></div>
+
+        <div class="w3-container">
+
+              <p style="font-size:70px;text-align:center; margin-bottom:60px;">Portfolio Slide Show</p>
+            </div>
+            <br><br><br>
+     <div id="axis" class="five">
+<div class="object van move-ne"><h1><i>Adobe Illustrator Sketch</i></h1></div>
+</div>
+
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+<img src="ibra.png" class="btn-social w3-mobile" />
+
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-gray">
+    Zlatan Ibrahimovic
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="minnesota.png" class="btn-social w3-mobile" />
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-gray">
+    Minnesota Collage
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+<img src="Berlin_wall_final2.jpg" class="btn-social w3-mobile" />
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-gray">
+    Berlin Wall Collage
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="coloribra.png" class="btn-social w3-mobile" />
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-gray">
+    Ibrahimovic Stencil
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+
+<br><br><br><br><br><br>
+
+    <div class="w3-container">
+
+     <div class="paragraph">
+      <h2 class="paragraph">"Zlatan Ibrahimovic": is a recreation of the cover photo of Zlatan Ibrahimovic using Adobe Illustrator. Hover over the graphic to see it in larger form and full color.
+<br><br>
+     <p>"Minnesota Collage": is a collage that was created using images from the internet and Adobe Photoshop. This composition captures the cutlrue and values of the states of Minnesota.
+       <br><br>
+       <p>"Berlin Wall Collageis": another collage created from images taken from the intenet. This composition was created in rememberance of the day the Beriln Wall was demolished 25 years ago.
+<br><br>
+         <p>"Ibrahimovic Stencil": is a black and white stencil of the first image made with Adobe Illustrator.
+</p></h2></div>
+    </div>
+        </div>
+
+
+<div class="w3-third w3-container">
+  <h2>w3-third</h2> <br><br><br><br> <br><br><br><br>
+</div>
+<div class="w3-third w3-container w3-transparent">
+
+<span class="extruded">Thanks For Visiting</span>
+
+			<div style="clear:right;"></div>
+
+
+		</div>
+
+  <h2>w3-third</h2> <br><br><br><br> <br><br><br><br>
+
+</div>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+
+
+        </div>
+    </body>
